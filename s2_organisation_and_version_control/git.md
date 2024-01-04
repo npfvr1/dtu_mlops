@@ -213,7 +213,7 @@ working together on the same project.
         >>>>>>> master
         ```
 
-        this should be interpret as: everything that's between `<<<<<<<` and `=======` are the changes made by your
+        this should be interpreted as: everything that's between `<<<<<<<` and `=======` are the changes made by your
         local commit and everything between `=======` and `>>>>>>>` are the changes you are trying to pull. To fix
         the merge conflict you simply have to make the code in the two "cells" work together. When you are done,
         remove the identifiers `<<<<<<<`, `=======` and `>>>>>>>`.
